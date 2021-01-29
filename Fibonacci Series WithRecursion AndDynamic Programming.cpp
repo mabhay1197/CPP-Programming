@@ -37,7 +37,7 @@ int main()
 	int num;
 	cout <<"Enter the limit for fibonacci series : " <<endl;
 	cin>> num;
-	long double series = fib(num);
+	long int series = fib(num);
 	cout<<"The value of Fibonacci series for limit " << num << " is " << series ;
 	
 	return 0;
